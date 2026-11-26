@@ -45,7 +45,7 @@ quadratureSegmentPoints = 1601;
 batchSavePDF = false;
 batchSavePNG = true;
 batchPNGResolution = 300;    % Recommended for final thesis raster figures.
-batchShowFigure = true;      % false = figures NOT displayed in MATLAB
+batchShowFigure = false;     % true = figures are displayed in MATLAB
 
 % Optional batch-wide plot-style overrides ([] = use base_params.m).
 % showLegend affects both exported and interactive plots.

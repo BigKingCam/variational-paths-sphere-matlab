@@ -97,11 +97,13 @@ addpath('scripts');
 write_environment_record
 ```
 
-This creates `docs/matlab_environment.txt`. Consult the archived environment record, if included, for the software versions associated with the recorded computations.
+This creates `docs/matlab_environment.txt`. The archived [MATLAB environment record](docs/matlab_environment.txt) identifies MATLAB R2025b Update 2 and the installed products. Preserve this record when reproducing the results in a different environment.
 
 ## Archival release and citation
 
 The project is hosted at [github.com/BigKingCam/variational-paths-sphere-matlab](https://github.com/BigKingCam/variational-paths-sphere-matlab). For reproducibility, use the fixed release or commit identified in Appendix C of the thesis rather than the evolving default branch.
+
+The SHA-256 manifest (`SHA256SUMS.txt`) covers the committed archive files, excluding the manifest itself. To verify a downloaded release, extract it and run `sha256sum -c SHA256SUMS.txt` from its root (for example, in Git Bash on Windows). The manifest corresponds to the archived Git file contents, not necessarily to a working tree with converted line endings.
 
 Citation metadata is in [`CITATION.cff`](CITATION.cff). The fixed release should be cited together with the master's thesis, not as a substitute for it.
 

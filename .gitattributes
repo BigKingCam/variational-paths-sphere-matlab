@@ -1,6 +1,17 @@
-*.m text eol=lf
-*.md text eol=lf
+* text=auto
+
+*.m   text eol=lf
+*.md  text eol=lf
 *.txt text eol=lf
 *.csv text eol=lf
+*.py  text eol=lf
+*.cff text eol=lf
+
+LICENSE        text eol=lf
+.gitattributes text eol=lf
+.gitignore     text eol=lf
+
 *.png binary
 *.mat binary
+*.pdf binary
+*.fig binary
