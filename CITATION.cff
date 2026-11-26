@@ -12,6 +12,6 @@ abstract: >-
 keywords:
   - spherical geodesics
   - brachistochrone
-  - stationary action
+  - least action
   - boundary value problems
   - MATLAB
