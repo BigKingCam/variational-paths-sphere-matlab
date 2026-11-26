@@ -1,0 +1,35 @@
+
+========================================
+Least-Action validation
+========================================
+Overall:              PASS
+
+Boundary conditions:
+  Max boundary error: 0.000000e+00
+  Status:             PASS
+
+Mechanical energy:
+  Initial value:      101.863715235
+  Minimum value:      101.863715235
+  Maximum value:      101.863715235
+  Absolute range:     2.250999e-10
+  Max abs drift:      1.823537e-10
+  Max rel drift:      1.790173e-12
+  Status:             PASS
+
+Angular momentum L_z:
+  Initial value:      8.37505318014
+  Minimum value:      8.37505317998
+  Maximum value:      8.37505318063
+  Absolute range:     6.529906e-10
+  Max abs drift:      4.942109e-10
+  Max rel drift:      5.900988e-11
+  Status:             PASS
+
+Physical admissibility:
+  Minimum N:          0.437409523344
+  Contact condition:  PASS
+  Overall physical:   PASS
+
+Travel time:
+  T_LA:               1.81837532

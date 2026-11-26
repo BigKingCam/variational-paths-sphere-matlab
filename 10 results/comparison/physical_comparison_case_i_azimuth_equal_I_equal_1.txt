@@ -1,0 +1,64 @@
+
+========================================
+Physical Comparison Report
+========================================
+Experiment: Case I
+Configuration: case_i_azimuth_equal_I_equal
+
+EXPERIMENT DEFINITION
+Protocol: Equal travel time
+Prescribed: Endpoints, B initial speed
+Constraint: T_LA = T_B
+
+Physical parameters:
+  Sphere radius: 10.000000000 m
+  Particle mass: 1.000000000 kg
+  Gravity:       9.810000000 m/s^2
+
+Common endpoints (radians):
+  theta0 = 0.392699081699
+  phi0   = 3.141592653590
+  theta1 = 0.523598775598
+  phi1   = 3.141592653590
+
+INITIAL PHYSICAL CONDITIONS
+
+Quantity                             Brachistochrone       Least Action
+-----------------------------------------------------------------------
+Initial speed (m/s)                                3                  3
+Initial direction (deg)                     0.000000           0.000000
+Initial kinetic energy (J)                       4.5                4.5
+Initial mechanical energy (J)             95.1325821         95.1325821
+
+Initial energy difference (LA - B): 7.847518191e-10 J
+
+MOTION AND PATH GEOMETRY
+
+Quantity                             Brachistochrone       Least Action
+-----------------------------------------------------------------------
+Travel time (s)                          0.351703149        0.351703149
+Arc length (m)                            1.30899699         1.30899699
+Mean speed (m/s)                           3.7218802          3.7218802
+Final speed (m/s)                         4.51120605         4.51120605
+
+Comparative differences (LA - B):
+  Travel time: 0.000000000000 s
+  Arc length:  0.000000000000 m
+  Relative time difference: +0.000000 %
+  (Positive means B has shorter travel time.)
+
+CONTACT CONDITIONS
+
+Quantity                             Brachistochrone       Least Action
+-----------------------------------------------------------------------
+Initial normal force (N)                  8.16325821         8.16325821
+Terminal normal force (N)                 6.46061121         6.46061121
+Physically admissible                            YES                YES
+
+INTERPRETATION NOTES
+  Travel time is prescribed equally; initial mechanical energy may differ.
+  Reported travel times describe the computed trajectories.
+  Numerical convergence does not, by itself, establish global optimality.
+  See individual validation reports for numerical accuracy and constraint checks.
+
+========================================

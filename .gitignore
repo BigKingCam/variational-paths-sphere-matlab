@@ -1,0 +1,16 @@
+# MATLAB editor and temporary files
+*.asv
+*.autosave
+*.m~
+*.bak
+*.tmp
+*~
+
+# OS/editor metadata
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Environment capture, recorded locally before release
+# (include docs/matlab_environment.txt in the final tagged release)

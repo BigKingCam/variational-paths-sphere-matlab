@@ -1,0 +1,34 @@
+
+========================================
+Geodesic validation
+========================================
+Overall:              PASS
+
+Boundary conditions:
+  Max boundary error: 0.000000e+00
+  Status:             PASS
+
+Geodesic energy:
+  Initial value:      18.1803301124
+  Minimum value:      18.1803301124
+  Maximum value:      18.1803301132
+  Absolute range:     8.064944e-10
+  Max abs drift:      8.023733e-10
+  Max rel drift:      4.413414e-11
+  Status:             PASS
+
+Phi momentum:
+  Initial value:      16.4284901516
+  Minimum value:      16.4284901513
+  Maximum value:      16.4284901522
+  Absolute range:     8.491021e-10
+  Max abs drift:      5.592433e-10
+  Max rel drift:      3.404107e-11
+  Status:             PASS
+
+Analytic great-circle comparison:
+  Central angle:      0.602998011826
+  Arc length:         6.02998011826
+  Max plane residual: 5.068390e-12
+  Plane status:       PASS
+  Max SLERP error:    7.514566e-12

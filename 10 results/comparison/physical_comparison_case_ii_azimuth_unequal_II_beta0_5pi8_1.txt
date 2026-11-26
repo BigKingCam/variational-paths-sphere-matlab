@@ -1,0 +1,65 @@
+
+========================================
+Physical Comparison Report
+========================================
+Experiment: Case II
+Configuration: case_ii_azimuth_unequal_II_beta0_5pi8
+
+EXPERIMENT DEFINITION
+Protocol: Equal initial energy
+Prescribed: LA initial position and velocity
+Constraint: E_LA(0) = E_B(0)
+Terminal point: LA first loss of contact
+
+Physical parameters:
+  Sphere radius: 10.000000000 m
+  Particle mass: 1.000000000 kg
+  Gravity:       9.810000000 m/s^2
+
+Common endpoints (radians):
+  theta0 = 0.392699081699
+  phi0   = 3.141592653590
+  theta1 = 0.867807577518
+  phi1   = 3.913251226046
+
+INITIAL PHYSICAL CONDITIONS
+
+Quantity                             Brachistochrone       Least Action
+-----------------------------------------------------------------------
+Initial speed (m/s)                                3                  3
+Initial direction (deg)                    34.335522         112.500000
+Initial kinetic energy (J)                       4.5                4.5
+Initial mechanical energy (J)             95.1325821         95.1325821
+
+Initial energy difference (LA - B): 6.323546131e-10 J
+
+MOTION AND PATH GEOMETRY
+
+Quantity                             Brachistochrone       Least Action
+-----------------------------------------------------------------------
+Travel time (s)                           1.23501874          1.5089671
+Arc length (m)                            6.52584804         6.63879496
+Mean speed (m/s)                          5.28400729         4.39956245
+Final speed (m/s)                         7.96377558         7.96377558
+
+Comparative differences (LA - B):
+  Travel time: 0.273948352837 s
+  Arc length:  0.112946925275 m
+  Relative time difference: +18.154694 %
+  (Positive means B has shorter travel time.)
+
+CONTACT CONDITIONS
+
+Quantity                             Brachistochrone       Least Action
+-----------------------------------------------------------------------
+Initial normal force (N)                  8.16325821         8.16325821
+Terminal normal force (N)            -5.34861044e-11     5.11937159e-11
+Physically admissible                            YES                YES
+
+INTERPRETATION NOTES
+  Initial mechanical energy is prescribed equally; travel times may differ.
+  Reported travel times describe the computed trajectories.
+  Numerical convergence does not, by itself, establish global optimality.
+  See individual validation reports for numerical accuracy and constraint checks.
+
+========================================

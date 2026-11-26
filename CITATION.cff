@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "Please cite the fixed release of the MATLAB project together with the associated master's thesis."
+type: software
+title: "Variational Path Problems on the Sphere: MATLAB Numerical Experiments"
+authors:
+  - family-names: Nolen
+    given-names: "Cameron L."
+abstract: >-
+  Numerical implementation and archived outputs for the geodesic,
+  brachistochrone, and least-action spherical path problems in the
+  master's thesis Variational Path Problems on the Sphere.
+keywords:
+  - spherical geodesics
+  - brachistochrone
+  - stationary action
+  - boundary value problems
+  - MATLAB

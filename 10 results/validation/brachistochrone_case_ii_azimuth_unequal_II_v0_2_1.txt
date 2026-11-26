@@ -1,0 +1,37 @@
+
+========================================
+Brachistochrone validation
+========================================
+Overall:              PASS
+
+Boundary conditions:
+  Max boundary error: 0.000000e+00
+  Status:             PASS
+
+Mechanical energy:
+  Initial value:      92.6325821394
+  Minimum value:      92.6325821394
+  Maximum value:      92.6325821394
+  Absolute range:     1.421085e-14
+  Max abs drift:      1.421085e-14
+  Max rel drift:      1.534110e-16
+  Status:             PASS
+
+Phi momentum:
+  Initial value:      1.49540434122
+  Minimum value:      1.49540434109
+  Maximum value:      1.49540434122
+  Absolute range:     1.295051e-10
+  Max abs drift:      1.295051e-10
+  Max rel drift:      8.660204e-11
+  Status:             PASS
+
+Physical admissibility:
+  Minimum N:          3.7095748695e-10
+  Max height excess:  0.000000e+00
+  Contact condition:  PASS
+  Height condition:   PASS
+  Overall physical:   PASS
+
+Travel time:
+  T_B:                1.25602022147
