@@ -1,0 +1,5 @@
+MATLAB version: 25.2.0.3055257 (R2025b) Update 2
+MATLAB release: 2025b
+
+MATLAB | version 25.2
+Symbolic Math Toolbox | version 25.2
